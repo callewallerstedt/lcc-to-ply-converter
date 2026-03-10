@@ -1,7 +1,7 @@
 @echo off
 setlocal
 
-REM Double-click runner for LCC (Xgrids) to PLY
+REM Double-click runner for LCC to PLY
 REM Put .zip files or extracted LCC folders inside .\input
 REM Results are written to .\output\<input-name>\
 
@@ -12,7 +12,7 @@ if not exist output mkdir output
 if not exist tmp mkdir tmp
 
 echo ==========================================
-echo LCC (Xgrids) to PLY - Batch Converter
+echo LCC to PLY - Batch Converter
 echo ==========================================
 echo Input folder : %cd%\input
 echo Output folder: %cd%\output

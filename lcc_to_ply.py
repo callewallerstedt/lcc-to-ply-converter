@@ -229,7 +229,7 @@ def convert_one(input_item: Path, out_dir: Path, lod: int, include_env: bool, wo
 
 
 def main():
-    ap = argparse.ArgumentParser(description="LCC (Xgrids) to PLY converter")
+    ap = argparse.ArgumentParser(description="LCC to PLY converter")
     ap.add_argument("input", nargs="?", help=".zip or extracted folder")
     ap.add_argument("--out-dir", default="output")
     ap.add_argument("--lod", type=int, default=0)

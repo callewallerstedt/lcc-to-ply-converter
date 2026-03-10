@@ -1,6 +1,6 @@
-# LCC (Xgrids) to PLY
+# LCC to PLY Converter
 
-Convert Xgrids LCC bundles to Gaussian-splat style PLY files.
+Convert LCC bundles to Gaussian-splat style PLY files.
 
 ## What you need
 For each scene, you need:
